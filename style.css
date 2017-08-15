@@ -1,0 +1,147 @@
+body{
+    background:#9B51E0;
+}
+.main-text{
+    height: 100%;
+    width:100%;
+}
+.header{
+    position:relative;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.text{
+    text-align: center;
+    font-family: 'Kurale', serif;
+    color:#FFFBFB;
+    font-size:52px;
+    padding-bottom:6%;;
+}
+.button{
+    background:#6CFE33;
+    width:30%;
+    text-align:center;
+    color:#FFFBFB;
+    font-size:42px;
+    margin-left:35%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    border:2px solid blue;
+}
+@media (min-width:700px) and (max-width:992px) {
+    .text{
+        font-size:46px;
+    }
+    .button{
+        width:50%;
+        margin-left:25%;
+    }
+    .question{
+        font-size:46px;
+    }
+}
+@media (max-width: 699px){
+    .text{
+        font-size:36px;
+        padding-bottom:20px;
+    }
+    .button{
+        width:70%;
+        margin-left:15%;
+    }
+    .question{
+        font-size:36px;
+    }
+}
+
+
+
+.quiz-container{
+    height:100%;
+    width:100%;
+}
+.quiz{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.question{
+    text-align: center;
+    font-family: 'Kurale', serif;
+    color:#FFFBFB;
+    font-size:52px;
+    padding-bottom:14px;
+}
+.results{
+    text-align: center;
+    color: #111;
+	font-size: 48px;
+}
+.score{
+    text-align:center;
+}
+.options{
+    width:100%;
+}
+.choice{
+    position:relative;
+    text-align:center;
+    width:50%;
+    left:25%;
+	padding: 15px;
+	border: 3px solid #f39c12;
+	color: #f39c12;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color: #101B48;
+    cursor: pointer;
+    transition:background-color 0.7s;
+}
+.choice:hover{
+    background-color: #6CFE33;
+}
+.generate:hover{
+    background-color: #888;
+}
+p.results span.wrong {
+    color: #c0392b;
+    font-family: 'Roboto Slab', serif;
+	display: block;
+}
+
+p.results span.right {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+	display: block;
+}
+.generate {
+	padding: 10px;
+	border: 3px solid #f39c12;
+	color: #f39c12;
+	border-radius: 15px;
+	font-size: 20px;
+	text-transform: uppercase;
+	background: #101B48;
+    cursor: pointer;
+    width:50%;
+    margin-left:25%;
+    text-align:center;
+    transition:background-color 0.7s;
+}
+
+.choice {
+	margin: 40px 0;
+}
+.results {
+	margin-bottom: 40px;
+}
+.thanks{
+    text-align:center;
+    font-size:24px;
+    font-family: 'Roboto Slab', serif;
+}
