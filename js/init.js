@@ -76,7 +76,7 @@ trekApp.generate = function() {
   // if there are no more questions, thank the user for playing and give the option to tweet the score
   
   } else {
-    $thanks.show().append(" <a href='http://twitter.com/home?status=Take the Star Trek Episode vs. Nail Polish Colour quiz! I scored " + score + " out of " + counter + " http://kerrywall.com/trek-polish' target='_blank'>Tweet your score</a>.");
+    $thanks.show().append(" <a href='http://twitter.com/home?status=Happy Birthday @bena_hili! I love you. I scored " + score + " out of " + counter + " in the best friend quiz' target='_blank'>Tweet your score</a>.");
   }
 
   $generate.hide();

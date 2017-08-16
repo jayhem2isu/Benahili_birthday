@@ -12,7 +12,7 @@
             <div class="main-text">
                 <div class="header">
                     <div class="text">How well do you know Bena?</div>
-                    <div class="button">Find Out</div>
+                    <div class="button" id="click">Find Out</div>
                 </div>
             </div>
 
@@ -23,6 +23,7 @@
                 <p class="question"></p>
                 <p class="results"></p>
                 <p class="score"></p>
+                <p class="grade"></p>
                 <p class="thanks">Thanks for playing!</p>
                 <div class="options">
                     <div class="choice one" id="one"></div>
@@ -36,6 +37,15 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/init.js"></script>
+
+        <script>
+            $( "#click" ).click(function() {
+                $(".quiz-container").show();
+                $(".header-container").hide();
+            });
+
+        </script>
+
     </body>
     
 </html>
