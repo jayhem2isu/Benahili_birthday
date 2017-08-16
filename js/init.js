@@ -36,6 +36,7 @@ var $question = $('.question'),
     $score = $('.score'),
     $thanks = $('.thanks'),
     $options = $('.options');
+    $grade = $('.grade');
 
 var trekApp = {};
 
@@ -53,6 +54,7 @@ trekApp.init = function() {
   $result.hide();
   $score.hide();
   $thanks.hide();
+  $grade.hide();
 }
 
 // the function for moving through the quiz
@@ -76,6 +78,19 @@ trekApp.generate = function() {
   // if there are no more questions, thank the user for playing and give the option to tweet the score
   
   } else {
+    if (score == 10){
+      $grade.show().append("You cheated");
+    }
+    else if  (score <10 && score >= 8) {
+      $grade.show().append("You are in the run for best friend");
+    }
+    else if  (score <8 && score >= 5) {
+      $grade.show().append("You try");
+    }
+    else if  (score <5) {
+      $grade.show().append("Wow, You have failed as a friend");
+    }
+    $result.hide();
     $thanks.show().append(" <a href='http://twitter.com/home?status=Happy Birthday @bena_hili! I love you. I scored " + score + " out of " + counter + " in the best friend quiz' target='_blank'>Tweet your score</a>.");
   }
 
