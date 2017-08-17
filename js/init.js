@@ -17,14 +17,14 @@ var counter = 0,
 var content = [
   {"question":"What is Bena's middle name?","answer":"one","one":"Faith","two":"Hope"},
   {"question":"What is her favourite colour?","answer":"one","one":"Purple","two":"Blue"},
-  {"question":"What is Bena's shoe size?","answer":"one","one":"39","two":"40"},
-  {"question":"What was the name of Bena's first crush?","answer":"two","one":"David","two":"David"},
+  {"question":"What is Bena's shoe size?","answer":"one","one":"41","two":"40"},
+  {"question":"What was the name of Bena's first crush?","answer":"two","one":"David","two":"Daniel"},
   {"question":"What is Bena's dad's name?","answer":"two","one":"Itose","two":"Barnabas"},
   {"question":"What year did Bena lose her dad?","answer":"two","one":"July 26th 2002","two":"July 26th 2004"},
   {"question":"What did Bena want to be as a child?","answer":"one","one":"Tv Presenter","two":"Singer"},
   {"question":"How many videos does Bena have on her youtube channel?","answer":"one","one":"7","two":"8"},
-  {"question":"When did Bena start her shameless journey?","answer":"two","one":"a","two":"b"},
-  {"question":"The Man Trap","answer":"one","one":"a","two":"b"}];
+  {"question":"When did Bena start her shameless journey?","answer":"one","one":"8th June","two":"31st May"},
+  {"question":"What is the Name of her secondary school BFF","answer":"one","one":"Busayo","two":"Busola"}];
 
 // assigning the commonly accessed dom elements to variables
 

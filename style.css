@@ -64,6 +64,12 @@ body{
     height:100%;
     width:100%;
     display:none;
+    animation-name:show;
+    animation-duration: 2s;
+}
+@keyframes show{
+    from {opacity: 0}
+    to {opacity:1}
 }
 .quiz{
     position:relative;
@@ -79,7 +85,7 @@ body{
     font-size:52px;
     padding-bottom:14px;
 }
-.results{
+.results, .grade{
     text-align: center;
     color: #111;
 	font-size: 48px;
@@ -141,7 +147,7 @@ p.results span.right {
 .choice {
 	margin: 40px 0;
 }
-.results {
+.results, .grade{
 	margin-bottom: 40px;
 }
 .thanks{
