@@ -31,34 +31,6 @@ body{
 .button:hover{
     border:2px solid blue;
 }
-@media (min-width:700px) and (max-width:992px) {
-    .text{
-        font-size:46px;
-    }
-    .button{
-        width:50%;
-        margin-left:25%;
-    }
-    .question{
-        font-size:46px;
-    }
-}
-@media (max-width: 699px){
-    .text{
-        font-size:36px;
-        padding-bottom:20px;
-    }
-    .button{
-        width:70%;
-        margin-left:15%;
-    }
-    .question{
-        font-size:24px;
-    }
-    
-}
-
-
 
 .quiz-container{
     height:100%;
@@ -157,3 +129,31 @@ p.results span.right {
     font-size:24px;
     font-family: 'Roboto Slab', serif;
 }
+@media (min-width:700px) and (max-width:992px) {
+    .text{
+        font-size:46px;
+    }
+    .button{
+        width:50%;
+        margin-left:25%;
+    }
+    .question{
+        font-size:46px;
+    }
+}
+@media (max-width: 699px){
+    .text{
+        font-size:36px;
+        padding-bottom:20px;
+    }
+    .button{
+        width:70%;
+        margin-left:15%;
+    }
+    .question{
+        font-size:36px;
+    }
+    
+}
+
+
