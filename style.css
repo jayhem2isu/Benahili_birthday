@@ -53,7 +53,7 @@ body{
         margin-left:15%;
     }
     .question{
-        font-size:36px;
+        font-size:28px;
     }
     
 }
@@ -130,6 +130,7 @@ p.results span.right {
 	display: block;
 }
 .generate {
+    position: relative;
 	padding: 10px;
 	border: 3px solid #f39c12;
 	color: #f39c12;
@@ -139,7 +140,8 @@ p.results span.right {
 	background: #101B48;
     cursor: pointer;
     width:50%;
-    margin-left:25%;
+    left:50%;
+    transform: translate(-50%);
     text-align:center;
     transition:background-color 0.7s;
 }
